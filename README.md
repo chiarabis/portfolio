@@ -6,6 +6,7 @@ Powered by:
 - Vite
 - React
 - Tailwind CSS
+- EmailJS
 
 Other utilities:
 - Framer Motion
