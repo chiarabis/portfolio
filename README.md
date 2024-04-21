@@ -12,5 +12,9 @@ Other utilities:
 - Framer Motion
 - Font Awesome Icon
 - React Type Animation
+
+Successfully deployed with Vercel:
+
+
 ---
 🙌 Thanks to @judygab for the tutorial 'nextjs-portfolio'
