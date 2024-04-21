@@ -5,15 +5,6 @@ import { useRef } from 'react';
 
 
 export default function Skills() {
-    /*const handleDownload = () => {
-        const pdfFilePath = '/files/cv.pdf';
-        const link = document.createElement('a');
-        link.href = pdfFilePath;
-        link.download = 'CV-ChiaraBissolo.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };*/
 
     const techSkills = [
         { name: 'Html e Css', percentage: 100 },
@@ -99,14 +90,6 @@ export default function Skills() {
             ))}
         </div>
 
-        {/*
-        <div className='flex justify-center mt-16'>
-            <button type='button' onClick={handleDownload} className="sm:w-fit px-6 py-3 border-2 rounded-full font-semibold
-                    border-zinc-500 text-zinc-500 hover:border-zinc-300 hover:text-zinc-300">Scarica CV
-                <FontAwesomeIcon icon={faFileArrowDown} className='w-7'/>
-            </button>
-        </div>
-        */}
     </section>
   )
 }
