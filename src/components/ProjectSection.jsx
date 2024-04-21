@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 "use client";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
@@ -30,11 +31,27 @@ const projectsData = [
       gitUrl: "https://github.com/chiarabis/calculator",
       previewUrl: "https://chiarabis.github.io/calculator/",
     },
+    {
+        id: 4,
+        title: "Climate Change Web App",
+        description: "'One Planet Project', una web app stile cyber-futuristico per educare e informare l'utente sul problema del cambiamento climatico.",
+        image: "/images/projects/4.png",
+        gitUrl: "",
+        previewUrl: "",
+    },
+    {
+        id: 5,
+        title: "Library App",
+        description: "Applicazione per la ricerca di libri.",
+        image: "/images/projects/4.png",
+        gitUrl: "",
+        previewUrl: "",
+    },
 ];
 
 
 
-export default function ProjectSection() {
+export default function ProjectSection( {isHomepage} ) {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
@@ -43,6 +60,7 @@ export default function ProjectSection() {
         animate: { opacity: 1, y: 0 },
     };
 
+    const projectsToDisplay = isHomepage ? projectsData.slice(0, 3) : projectsData;
 
 
     return (
@@ -50,7 +68,7 @@ export default function ProjectSection() {
             <h2 className="text-center text-2xl sm:text-3xl font-bold text-zinc-300 mt-8 mb-8 md:mb-12">My Projects</h2>
 
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-                {projectsData.map((project, index) => (
+                {projectsToDisplay.map((project, index) => (
                 <motion.li
                     key={index}
                     variants={cardVariants}
