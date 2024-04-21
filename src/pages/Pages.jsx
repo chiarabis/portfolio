@@ -2,9 +2,9 @@ import { Route, Routes } from 'react-router-dom'
 import { AnimatePresence } from "framer-motion"
 import Homepage from '../components/Homepage';
 import AboutSection from '../components/AboutSection';
-import Projects from '../components/Projects';
-import Skills from '../components/Skills';
-import Contacts from '../components/Contacts';
+import ProjectSection from '../components/ProjectSection';
+import SkillSection from '../components/SkillSection';
+import ContactSection from '../components/ContactSection';
 
 
 function Pages(){
@@ -13,9 +13,9 @@ function Pages(){
             <Routes>
                 <Route path='/' element={<Homepage/>}/>
                 <Route path='/about-me' element={<AboutSection/>}/>
-                <Route path='/skills' element={<Skills/>}/>
-                <Route path='/projects' element={<Projects/>}/>
-                <Route path='/contacts' element={<Contacts/>}/>
+                <Route path='/skills' element={<SkillSection/>}/>
+                <Route path='/projects' element={<ProjectSection/>}/>
+                <Route path='/contacts' element={<ContactSection/>}/>
             </Routes>
         </AnimatePresence>
     )
