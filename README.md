@@ -13,7 +13,7 @@ Other utilities:
 - Font Awesome Icon
 - React Type Animation
 
-Successfully deployed with Vercel: https://portfolio-qkk6o4osn-chiaras-projects-ea049797.vercel.app
+Successfully deployed with Vercel: https://portfolio-chiara-bissolo.vercel.app/
 
 
 ---
