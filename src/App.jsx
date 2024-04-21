@@ -18,9 +18,9 @@ function App() {
         <meta property="og:title" content="Portfolio Website - Chiara Bissolo" />
         <meta property="og:description" content="My portfolio website - I'm Chiara Bissolo, Front-end developer" />
         <meta property="og:image" content="/image-og.png" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://portfolio-qkk6o4osn-chiaras-projects-ea049797.vercel.app" />
         <meta property="og:type" content="website"/>
-        <link rel="canonical" href=""/>
+        <link rel="canonical" href="https://portfolio-qkk6o4osn-chiaras-projects-ea049797.vercel.app"/>
         <link rel="icon" type="image/png" href="/favicon/favicon_io/favicon.ico"/>
       </Helmet>
       
