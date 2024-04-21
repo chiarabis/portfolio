@@ -7,7 +7,7 @@ export default function Homepage() {
     <>
         <HeroSection/>
         <AboutSection/>
-        <ProjectSection/>
+        <ProjectSection isHomepage={true}/>
     </>
   )
 }
