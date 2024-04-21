@@ -30,7 +30,7 @@ const navLinks = [
 
 
 
-const Navbar = () => {
+const Navbar = ( {onClose} ) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const closeMenu = () => {
@@ -70,7 +70,16 @@ const Navbar = () => {
         </div>
       </div>
 
-      {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
+      {/*{navbarOpen ? <MenuOverlay links={navLinks}/> : null}*/}
+      {navbarOpen ? (
+        <ul className="flex flex-col py-4 items-center gradient-text bg-gradient-to-b">
+          {navLinks.map((link, index) => (
+            <li key={index}>
+              <NavLink to={link.path} title={link.title} onClose={onClose}/>
+            </li>
+          ))}
+        </ul>
+      ) : null}
     </nav>
   );
 };
