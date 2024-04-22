@@ -19,7 +19,7 @@ export default function SkillSection() {
         { name: 'Html e Css', percentage: 100 },
         { name: 'Javascript', percentage: 100 },
         { name: 'React', percentage: 100 },
-        { name: 'Next.js', percentage: 90 },
+        { name: 'Next.js', percentage: 60 },
         { name: 'Vite', percentage: 100 },
         { name: 'Node.js', percentage: 50 },
         { name: 'Tailwind CSS', percentage: 100 },
