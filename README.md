@@ -17,4 +17,4 @@ Successfully deployed with Vercel: https://portfolio-chiara-bissolo.vercel.app/
 
 
 ---
-🙌 Thanks to @judygab for the tutorial 'nextjs-portfolio'
+🫶🏻 Thanks to @judygab for the tutorial 'nextjs-portfolio'
