@@ -9,27 +9,27 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
     {
         id: 1,
+        title: "Climate Change Web App",
+        description: "'One Planet Project', una web app stile cyber-futuristico per monitorare i dati del cambiamento climatico ed educare e sensibilizzare l'utente.",
+        image: "/images/projects/1.png",
+        gitUrl: "https://github.com/chiarabis/one-planet-project-web",
+        previewUrl: "https://one-planet-project-web.vercel.app/",
+    },
+    {
+        id: 2,
         title: "Newspaper Website",
         description: "Usando la API del New York Times, ho realizzato un sito web per accedere alle informazioni e alle notizie.",
-        image: "/images/projects/1.png",
+        image: "/images/projects/2.png",
         gitUrl: "https://github.com/chiarabis/newspaper-clone-app",
         previewUrl: "https://newspaper-clone-app.vercel.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Recipes Web App",
         description: "Una web app per cercare ricette da tutto il mondo, con possibilità di opzioni veg, salvarle tra i preferiti e poter creare una lista della spesa.",
-        image: "/images/projects/2.png",
+        image: "/images/projects/3.png",
         gitUrl: "https://github.com/chiarabis/recipes-app",
         previewUrl: "https://recipes-app-hazel-zeta.vercel.app/",
-    },
-    {
-        id: 3,
-        title: "Climate Change Web App",
-        description: "'One Planet Project', una web app stile cyber-futuristico per monitorare i dati del cambiamento climatico ed educare e sensibilizzare l'utente.",
-        image: "/images/projects/3.png",
-        gitUrl: "https://github.com/chiarabis/one-planet-project-web",
-        previewUrl: "https://one-planet-project-web.vercel.app/",
     },
     {
         id: 4,
