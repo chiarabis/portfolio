@@ -26,7 +26,7 @@ const projectsData = [
     {
         id: 3,
         title: "Recipes Web App",
-        description: "Una web app per cercare ricette da tutto il mondo, con possibilità di opzioni veg, salvarle tra i preferiti e poter creare una lista della spesa.",
+        description: "Una web app per cercare ricette da tutto il mondo, con possibilità di varie opzioni, salvarle tra i preferiti e poter creare una lista della spesa.",
         image: "/images/projects/3.png",
         gitUrl: "https://github.com/chiarabis/recipes-app",
         previewUrl: "https://recipes-app-hazel-zeta.vercel.app/",
