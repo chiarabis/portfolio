@@ -13,8 +13,8 @@ const TAB_DATA = [
           <li>Javascript</li>
           <li>Node.js</li>
           <li>React</li>
-          <li>Vite.js</li>
-          <li>Next.js</li>
+          <li>Vite</li>
+          <li>TypeScript</li>
           <li>Responsive design</li>
           <li>Basi di UI/UX design</li>
         </ul>
@@ -91,7 +91,7 @@ export default function AboutSection() {
             Ora è la mia passione ed ciò in cui voglio dare il meglio di me stessa.<br/>
             Ho iniziato il mio percorso studiando da autodidatta (il web è una risorsa infinita);
             poi ho deciso di seguire un corso più strutturato e ho realizzato progetti lavorando in particolare
-            con Javascript, React, Tailwind CSS, Node.js, Next.js e altre librerie. Sono sempre entusiasta di imparare 
+            con Javascript, React, Tailwind CSS, Node.js, TypeScript e altre librerie. Sono sempre entusiasta di imparare 
             nuove tecnologie ed espandere le mie conoscenze.
           </p>
 
