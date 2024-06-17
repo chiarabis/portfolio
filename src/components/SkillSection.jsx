@@ -19,14 +19,14 @@ export default function SkillSection() {
         { name: 'Html e Css', percentage: 100 },
         { name: 'Javascript', percentage: 100 },
         { name: 'React', percentage: 100 },
-        { name: 'Next.js', percentage: 60 },
+        { name: 'Typescript', percentage: 80 },
         { name: 'Vite', percentage: 100 },
         { name: 'Node.js', percentage: 50 },
         { name: 'Tailwind CSS', percentage: 100 },
         { name: 'Responsive design', percentage: 100},
         { name: 'UI/UX Design', percentage: 50 },
-        { name: 'GitHub', percentage: 60 },
-        { name: 'Basi di dati e linguaggio SQL', percentage: 20 },
+        { name: 'GitHub', percentage: 70 },
+        { name: 'Basi di dati e linguaggio SQL', percentage: 80 },
         { name: 'MySQL', percentage: 20 }
     ];
 
