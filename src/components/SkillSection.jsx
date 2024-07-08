@@ -18,14 +18,12 @@ export default function SkillSection() {
     const techSkills = [
         { name: 'Html e Css', percentage: 100 },
         { name: 'Javascript', percentage: 100 },
-        { name: 'React', percentage: 100 },
+        { name: 'React', percentage: 90 },
         { name: 'TypeScript', percentage: 80 },
-        { name: 'Vite', percentage: 100 },
-        { name: 'Node.js', percentage: 50 },
+        { name: 'Node.js', percentage: 70 },
         { name: 'Tailwind CSS', percentage: 100 },
-        { name: 'Responsive design', percentage: 100},
+        { name: 'Responsive design', percentage: 90},
         { name: 'UI/UX Design', percentage: 50 },
-        { name: 'GitHub', percentage: 70 },
         { name: 'Basi di dati e linguaggio SQL', percentage: 80 },
         { name: 'MySQL', percentage: 20 }
     ];
@@ -52,8 +50,7 @@ export default function SkillSection() {
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.2 }}
-                className='my-4'
-            >
+                className='my-4'>
                 <p>{skill.name}</p>
                 
                 <div className='mt-2'>
@@ -63,8 +60,7 @@ export default function SkillSection() {
                             borderRadius: '20px',
                             height: '16px',
                             margin: '5px 0',
-                        }}
-                    >
+                        }}>
                     <div
                         style={{
                             width: `${skill.percentage}%`,
@@ -91,8 +87,7 @@ export default function SkillSection() {
                     animate={isInView ? { opacity: 1, y: 0 } : 'initial'}
                     transition={{ duration: 0.4, delay: index * 0.2 }}
                     
-                    className='bg-zinc-300 rounded-full w-full h-fit my-2 flex flex-row items-center'
-                >   
+                    className='bg-zinc-300 rounded-full w-full h-fit my-2 flex flex-row items-center'>   
                     {skill.icon && <FontAwesomeIcon icon={skill.icon} className='circle-skills-icon sm:p-5 sm:w-7'/>}
                     <p className='text-zinc-900 font-semibold align-middle mx-4'>{skill.name}</p>  
                 </motion.div>

@@ -13,7 +13,7 @@ const TAB_DATA = [
           <li>Javascript</li>
           <li>Node.js</li>
           <li>React</li>
-          <li>Vite</li>
+          <li>SQL e MySQL</li>
           <li>TypeScript</li>
           <li>Responsive design</li>
           <li>Basi di UI/UX design</li>
