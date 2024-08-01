@@ -35,7 +35,7 @@ const projectsData = [
         id: 4,
         title: "Moove App",
         description: "App di micromobilità condivisa realizzata in Typescript. Il progetta mira a offrire una soluzione sostenibile e innovativa per il trasporto urbano.",
-        image: "/images/projects/5.png",
+        image: "/images/projects/4.png",
         gitUrl: "https://github.com/chiarabis/moove-app",
         previewUrl: "https://mooveapp.netlify.app/",
     },
@@ -43,7 +43,7 @@ const projectsData = [
         id: 5,
         title: "Calculator",
         description: "Il primo mini-progetto in Javascript! Una semplice calcolatrice per comprendere la logica di programmazione.",
-        image: "/images/projects/4.png",
+        image: "/images/projects/5.png",
         gitUrl: "https://github.com/chiarabis/calculator",
         previewUrl: "https://chiarabis.github.io/calculator/",
     }
