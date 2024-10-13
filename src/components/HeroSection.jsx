@@ -47,7 +47,7 @@ export default function HeroSection() {
 
             <div className="col-span-4 place-self-center md:m-0 mt-6 mb-12"> {/** 2xl:justify-self-start*/}
                 <div className="rounded-full w-[250px] h-[250px] relative">
-                    <img src="/images/pic.png" alt="picture" className="absolute transform -translate-x-1/2
+                    <img src="/images/pic.jpg" alt="picture" className="absolute transform -translate-x-1/2
                     -translate-y-1/2 top-1/2 left-1/2 lg:w-fit w-[180px]"></img>
                 </div>
             </div>
