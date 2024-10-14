@@ -5,16 +5,27 @@ import { useRef } from 'react';
 
 
 export default function SkillSection() {
+    /*const handleDownload = () => {
+        const pdfFilePath = '/files/cv.pdf';
+        const link = document.createElement('a');
+        link.href = pdfFilePath;
+        link.download = 'CV-ChiaraBissolo.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };*/
+
     const techSkills = [
         { name: 'Html e Css', percentage: 100 },
         { name: 'Javascript', percentage: 100 },
-        { name: 'React', percentage: 90 },
-        { name: 'TypeScript', percentage: 80 },
-        { name: 'Node.js', percentage: 60 },
+        { name: 'React', percentage: 100 },
+        { name: 'TypeScript', percentage: 70 },
+        { name: 'Node.js', percentage: 70 },
         { name: 'Tailwind CSS', percentage: 100 },
-        { name: 'Responsive design', percentage: 90},
+        { name: 'Responsive design', percentage: 100},
         { name: 'UI/UX Design', percentage: 50 },
-        { name: 'Basi di dati e linguaggio SQL', percentage: 20 },
+        { name: 'Basi di dati e linguaggio SQL', percentage: 30 },
+        { name: 'React Native', percentage: 20 }
     ];
 
     const softSkills = [
