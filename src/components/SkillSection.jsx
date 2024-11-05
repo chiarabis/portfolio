@@ -24,8 +24,7 @@ export default function SkillSection() {
         { name: 'Tailwind CSS', percentage: 100 },
         { name: 'Responsive design', percentage: 100},
         { name: 'UI/UX Design', percentage: 50 },
-        { name: 'Basi di dati e linguaggio SQL', percentage: 30 },
-        { name: 'React Native', percentage: 20 }
+        { name: 'Basi di dati e linguaggio SQL', percentage: 30 }
     ];
 
     const softSkills = [

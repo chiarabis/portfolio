@@ -46,6 +46,14 @@ const projectsData = [
         image: "/images/projects/5.png",
         gitUrl: "https://github.com/chiarabis/calculator",
         previewUrl: "https://chiarabis.github.io/calculator/",
+    },
+    {
+        id: 6,
+        title: "Arcoiris Candles Website",
+        description: "Sito web e shop online per un brand che realizza candele artigianali.",
+        image: "/images/projects/6.png",
+        gitUrl: "",
+        previewUrl: "",
     }
 ];
 

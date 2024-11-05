@@ -15,6 +15,7 @@ const variants = {
   </motion.div>*/
 
   
+/* eslint-disable react/prop-types */ 
 export default function TabButton( { active, selectTab, children } ) {
     const buttonClasses = active ? "text-zinc-300" : "text-zinc-500";
 

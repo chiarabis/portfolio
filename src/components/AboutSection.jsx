@@ -13,7 +13,7 @@ const TAB_DATA = [
           <li>Javascript</li>
           <li>Node.js</li>
           <li>React</li>
-          <li>SQL e MySQL</li>
+          <li>SQL</li>
           <li>TypeScript</li>
           <li>Responsive design</li>
           <li>Basi di UI/UX design</li>
@@ -25,7 +25,7 @@ const TAB_DATA = [
       id: "education",
       content: (
         <ul className="list-disc pl-2">
-          <li>Front-End Development Master - Start2Impact University</li>
+          <li>Master in Front-End Development - Start2Impact University</li>
           <li>Master di I livello in Digital Humanities</li>
         </ul>
       ),
