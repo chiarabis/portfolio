@@ -13,6 +13,7 @@ const TAB_DATA = [
           <li>Javascript</li>
           <li>Node.js</li>
           <li>React</li>
+          <li>React Native</li>
           <li>SQL</li>
           <li>TypeScript</li>
           <li>Responsive design</li>
@@ -26,7 +27,8 @@ const TAB_DATA = [
       content: (
         <ul className="list-disc pl-2">
           <li>Master in Front-End Development - Start2Impact University</li>
-          <li>Master di I livello in Digital Humanities</li>
+          <li>Master di I livello in Digital Humanities - Università Ca' Foscari</li>
+          <li>Laurea in Conservazione dei Beni Culturali - Università di Ferrara</li>
         </ul>
       ),
     },
@@ -35,10 +37,10 @@ const TAB_DATA = [
       id: "hobbies",
       content: (
         <ul className="list-disc pl-2 grid grid-cols-2 gap-x-4">
-          <li>Viaggiare</li>
+          <li>Leggere (thriller, gialli, fantascienza)</li>
           <li>Candele artigianali</li>
           <li>Serie TV e film</li>
-          <li>Yoga e passeggiate</li>
+          <li>Pilates e fare passeggiate</li>
         </ul>
       ),
     }
@@ -90,9 +92,9 @@ export default function AboutSection() {
             Ho un background umanistico ma negli anni mi sono avvicinata alla programmazione e allo sviluppo web.
             Ora è la mia passione ed ciò in cui voglio dare il meglio di me stessa.<br/>
             Ho iniziato il mio percorso studiando da autodidatta (il web è una risorsa infinita);
-            poi ho deciso di seguire un corso più strutturato e ho realizzato progetti lavorando in particolare
-            con Javascript, React, Tailwind CSS, Node.js, TypeScript e altre librerie. Sono sempre entusiasta di imparare 
-            nuove tecnologie ed espandere le mie conoscenze.
+            poi ho deciso di seguire un corso più strutturato e ho realizzato dei progetti personali lavorando in particolare
+            con Javascript, React, Tailwind CSS, Node.js, TypeScript e altre librerie. Attualmente sto studiando il funzionamento di React Native.
+            Sono sempre entusiasta di imparare nuove tecnologie, espandere le mie conoscenze e affrontare nuove sfide.
           </p>
 
           <div className="flex flex-row justify-start mt-8">

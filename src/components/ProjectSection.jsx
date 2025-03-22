@@ -34,18 +34,18 @@ const projectsData = [
     {
         id: 4,
         title: "Moove App",
-        description: "App di micromobilità condivisa realizzata in Typescript. Il progetta mira a offrire una soluzione sostenibile e innovativa per il trasporto urbano.",
+        description: "App di micromobilità condivisa realizzata in Typescript. Il progetto mira a offrire una soluzione sostenibile e innovativa per il trasporto urbano.",
         image: "/images/projects/4.png",
         gitUrl: "https://github.com/chiarabis/moove-app",
         previewUrl: "https://mooveapp.netlify.app/",
     },
     {
         id: 5,
-        title: "Calculator",
-        description: "Il primo mini-progetto in Javascript! Una semplice calcolatrice per comprendere la logica di programmazione.",
+        title: "Orizon API",
+        description: "Un progetto Node.js. Creazione di REST API per gestire un'agenzia viaggi fittizia Orizon.",
         image: "/images/projects/5.png",
-        gitUrl: "https://github.com/chiarabis/calculator",
-        previewUrl: "https://chiarabis.github.io/calculator/",
+        gitUrl: "https://github.com/chiarabis/orizon-api-nodejs",
+        previewUrl: "https://orizon-api-nodejs.onrender.com",
     },
     {
         id: 6,

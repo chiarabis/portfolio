@@ -16,7 +16,7 @@ export default function HeroSection() {
             
             <div className='col-span-8 2xl:col-span-6 w-full text-center md:text-left md:place-self-start my-auto sm:pl-4 xl:pl-16'>
                 <h1 className="text-zinc-300 text-3xl sm:text-5xl lg:text-6xl mt-12">
-                    <span className='gradient-text bg-gradient-to-r'>Hi, I&apos;m{" "}</span>
+                    <span className='gradient-text bg-gradient-to-r'>Ciao, sono</span>
                     
                     <br></br>
                     <TypeAnimation
@@ -32,8 +32,10 @@ export default function HeroSection() {
                     />         
                 </h1>
 
-                <p className="text-zinc-500 text-base sm:text-lg lg:text-xl mb-6">
-                    I&apos;m also a coffeeholic, a candle maker and a cat lover.
+                <p className="text-zinc-500 text-base sm:text-lg lg:text-xl my-6">
+                    Non so solo centrare un div, scrivo codice per dare vita alle idee perchè chiuse nella testa ammuffiscono.
+                    Tra componenti riutilizzabili e console.log() ho trovato il mio ikigai. 
+                    Ma soprattutto, niente batte la soddisfazione di vedere tutto funzionare...almeno fino al prossimo bug!
                 </p>
 
                 <div>
