@@ -12,8 +12,8 @@ const projectsData = [
         title: "Climate Change Web App",
         description: "'One Planet Project', una web app stile cyber-futuristico per monitorare i dati del cambiamento climatico ed educare e sensibilizzare l'utente.",
         image: "/images/projects/1.png",
-        gitUrl: "https://github.com/chiarabis/one-planet-project-web",
-        previewUrl: "https://one-planet-project-web.vercel.app/",
+        gitUrl: "", //https://github.com/chiarabis/one-planet-project-web
+        previewUrl: "", //https://one-planet-project-web.vercel.app/
     },
     {
         id: 2,
