@@ -49,11 +49,11 @@ const projectsData = [
     },
     {
         id: 6,
-        title: "Arcoiris Candles Website",
-        description: "Sito web e shop online per un brand che realizza candele artigianali.",
+        title: "Form2Doc",
+        description: "Tool client-side per generare documenti compilati in Word, utilizzando semplice Vanilla JS.",
         image: "/images/projects/6.png",
-        gitUrl: "",
-        previewUrl: "",
+        gitUrl: "https://github.com/chiarabis/form2doc",
+        previewUrl: "https://form2doc.netlify.app/",
     }
 ];
 
