@@ -32,11 +32,12 @@ export default function HeroSection() {
                     />         
                 </h1>
 
-                <p className="text-zinc-500 text-base sm:text-lg lg:text-xl my-6">
-                    Non so solo centrare un div, scrivo codice per dare vita alle idee perchè chiuse nella testa ammuffiscono.
-                    Tra componenti riutilizzabili e console.log() ho trovato il mio ikigai. 
-                    Ma soprattutto, niente batte la soddisfazione di vedere tutto funzionare...almeno fino al prossimo bug!
-                </p>
+                <div className="text-zinc-500 text-base sm:text-lg lg:text-xl my-6 flex flex-col gap-3">
+                    <p>Non so solo centrare un div 🎯👀</p>
+                    <p>Scrivo codice per dare vita alle idee 💡 Chiuse nella testa ammuffiscono...</p>
+                    <p>Tra componenti riutilizzabili e console.log() ho trovato il mio ikigai 💓</p>
+                    <p>Ma soprattutto, niente batte la soddisfazione di vedere tutto funzionare...almeno fino al prossimo bug! 🪲</p>
+                </div>
 
                 <div>
                     <Link to='/contacts'>
