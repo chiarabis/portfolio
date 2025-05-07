@@ -2,7 +2,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faCheck } from "@fortawesome/free-solid-svg-icons";
 import { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion";
 
 
