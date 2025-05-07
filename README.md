@@ -6,15 +6,16 @@ Powered by:
 - Vite
 - React
 - Tailwind CSS
-- EmailJS
+- Resend
+- Vercel
 
 Other utilities:
 - Framer Motion
 - Font Awesome Icon
 - React Type Animation
 
-Successfully deployed with Vercel: https://portfolio-chiara-bissolo.vercel.app/
+[My portfolio website](https://portfolio-chiara-bissolo.vercel.app/) successfully deployed with Vercel.
 
 
 ---
-🫶🏻 Thanks to @judygab for the tutorial 'nextjs-portfolio'
+🫶🏻 Thanks to @judygab for the inspiring tutorial 'nextjs-portfolio'
