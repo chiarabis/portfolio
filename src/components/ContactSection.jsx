@@ -9,7 +9,7 @@ export default function ContactSection() {
     const form = useRef();
     const [emailSubmitted, setEmailSubmitted] = useState(false)
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async(e) => {
         e.preventDefault();
         const formData = new FormData(form.current);
 
@@ -21,7 +21,7 @@ export default function ContactSection() {
         };
 
         try{
-            const response = fetch('/api/send', {
+            const response = await fetch('/api/send', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data),
