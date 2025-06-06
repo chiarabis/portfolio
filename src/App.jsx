@@ -27,7 +27,7 @@ function App() {
 
       <main className='flex flex-col min-h-screen'>
         <Navbar/>
-          <div className="container mt-24 mx-auto sm:py-4 py-6 px-12">
+          <div className="container mt-24 mx-auto sm:py-4 sm:px-12 px-6"> {/**py-6 px-12*/}
             <Pages/>
           </div>
         <Footer/>
