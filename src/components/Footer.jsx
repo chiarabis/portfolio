@@ -27,8 +27,8 @@ const Footer = () => {
           </div>
 
           <div className="text-zinc-500 mt-14 sm:m-0 text-center sm:text-end">
-            <p className="mb-4 sm:mb-0">Powered by Vite, Tailwind and EmailJS 🚀</p>
-            <p>All rights reserved.</p>
+            <p className="mb-4 sm:mb-0">Deployed by Vercel ▲</p>
+            <p>© All rights reserved.</p>
           </div>
 
         </div>

@@ -16,14 +16,16 @@ const variants = {
 
   
 /* eslint-disable react/prop-types */ 
+import { motion } from "framer-motion";
+
 export default function TabButton( { active, selectTab, children } ) {
     const buttonClasses = active ? "text-zinc-300" : "text-zinc-500";
 
     return (
-      <button onClick={selectTab}>
-        <p className={`mr-4 font-semibold hover:text-zinc-300 ${buttonClasses}`}>
+      <motion.button onClick={selectTab}>
+        <p className={`font-semibold hover:text-zinc-300 ${buttonClasses}`}>
           {children}
         </p>
-      </button>
+      </motion.button>
     );
 }

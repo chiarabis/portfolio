@@ -11,26 +11,26 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const navLinks = [
   {
-    title: 'About me',
-    path: '/about-me'
+    title: 'Su di me',
+    path: '/aboutme'
   },
   {
-    title: 'Skills',
+    title: 'Skill',
     path: '/skills'
   },
   {
-    title: 'Projects',
+    title: 'Progetti',
     path: '/projects'
   },
   {
-    title: 'Contacts',
+    title: 'Contatti',
     path: '/contacts'
   }
 ]
 
 
 
-const Navbar = ( {onClose} ) => {
+const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const closeMenu = () => {
@@ -46,12 +46,12 @@ const Navbar = ( {onClose} ) => {
         <div className='mobile-menu block md:hidden'>
           {!navbarOpen ? (
             <button onClick={() => {setNavbarOpen(true)}}
-            className='flex items-center px-3 py-2 border rounded border-zinc-300 text-zinc-300 button-menu'>
+            className='flex items-center py-2 px-3 border rounded border-zinc-300 text-zinc-300 button-menu'>
               <FontAwesomeIcon icon={faBars} className='w-5 h-5'/>
             </button>
           ) : (
             <button onClick={() => {setNavbarOpen(false)}} 
-            className='flex items-center px-3 py-2 border rounded border-zinc-300 text-zinc-300 button-menu'>
+            className='flex items-center py-2 px-3 border rounded border-zinc-300 text-zinc-300 button-menu'>
               <FontAwesomeIcon icon={faXmark} className='w-5 h-5'/>
             </button>
           )}
@@ -70,16 +70,7 @@ const Navbar = ( {onClose} ) => {
         </div>
       </div>
 
-      {/*{navbarOpen ? <MenuOverlay links={navLinks}/> : null}*/}
-      {navbarOpen ? (
-        <ul className="flex flex-col py-4 items-center gradient-text bg-gradient-to-b">
-          {navLinks.map((link, index) => (
-            <li key={index}>
-              <NavLink to={link.path} title={link.title} onClose={onClose}/>
-            </li>
-          ))}
-        </ul>
-      ) : null}
+      {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
     </nav>
   );
 };

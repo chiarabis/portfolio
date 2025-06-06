@@ -15,7 +15,7 @@ export default function HeroSection() {
         >
             
             <div className='col-span-8 2xl:col-span-6 w-full text-center md:text-left md:place-self-start my-auto sm:pl-4 xl:pl-16'>
-                <h1 className="text-zinc-300 text-3xl sm:text-5xl lg:text-6xl mt-12">
+                <h1 className="text-zinc-300 text-3xl sm:text-5xl lg:text-6xl sm:mt-12">
                     <span className='gradient-text bg-gradient-to-r'>Ciao, sono</span>
                     
                     <br></br>
@@ -43,7 +43,7 @@ export default function HeroSection() {
                     <Link to='/contacts'>
                         <button className="sm:w-fit px-6 py-3 border-2 rounded-full font-semibold border-zinc-950
                         text-zinc-300 button-contact bg-gradient-to-br from-cyan-600 via-indigo-600 to-pink-600">
-                            Contact me</button>
+                            Contattami</button>
                     </Link>
                 </div>
             </div>
