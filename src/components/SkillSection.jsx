@@ -25,7 +25,6 @@ export default function SkillSection() {
         { name: 'Responsive design', percentage: 100},
         { name: 'UI/UX Design', percentage: 50 },
         { name: 'Basi di dati e linguaggio SQL', percentage: 30 },
-        { name: 'React Native', percentage: 20 }
     ];
 
     const softSkills = [
@@ -105,3 +104,4 @@ export default function SkillSection() {
     </section>
   )
 }
+
